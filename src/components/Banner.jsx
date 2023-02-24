@@ -1,7 +1,9 @@
-import React from 'react';
+import React from "react";
 
-const Banner = () => {
-  return <div className='section'>Banner</div>;
+export default function Banner() {
+  return (
+    <div className='section' id='home'>
+      Banner
+    </div>
+  );
 };
-
-export default Banner;
