@@ -1,6 +1,6 @@
 import React from "react";
 // imagens
-import logo from "../assets/logo.svg";
+import Logo from "../assets/logo.svg";
 
 export default function Header() {
   return (
@@ -9,7 +9,7 @@ export default function Header() {
         <div className='flex justify-between items-center'>
           {/* logo */}
           <a href='#'>
-            <img src={logo} alt='logo' />
+            <img src={Logo} alt='logo' />
           </a>
 
           {/* botão */}
