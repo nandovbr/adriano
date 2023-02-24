@@ -12,24 +12,44 @@ const Nav = () => {
           rounded-full max-w-[460px] mx-auto px-5 flex justify-between 
           items-center text-2x1 text-white/50'>
 
-          <Link className='cursor-pointer w-[60px] h-[60px] flex items-center
-            justify-center'>
+          <Link
+            to='home'
+            className='cursor-pointer w-[60px] h-[60px] flex items-center
+            justify-center'
+          >
             <BiHomeAlt />
           </Link>
 
-          <Link className='cursor-pointer w-[60px] h-[60px] flex items-center
-            justify-center'>
+          <Link
+            to='about'
+            className='cursor-pointer w-[60px] h-[60px] flex items-center
+            justify-center'
+          >
             <BiUser />
           </Link>
 
-          <Link className='cursor-pointer w-[60px] h-[60px] flex items-center
-            justify-center'>
+          <Link
+            to='services'
+            className='cursor-pointer w-[60px] h-[60px] flex items-center
+            justify-center'
+          >
             <BsClipboardData />
           </Link>
 
-          <Link className='cursor-pointer w-[60px] h-[60px] flex items-center
-            justify-center'>
+          <Link
+            to='work'
+            className='cursor-pointer w-[60px] h-[60px] flex items-center
+            justify-center'
+          >
             <BsBriefcase />
+          </Link>
+
+          <Link
+            to='contact'
+            className='cursor-pointer w-[60px] h-[60px] flex items-center
+            justify-center'
+          >
+            <BsChatSquare />
           </Link>
         </div>
       </div>
