@@ -1,4 +1,6 @@
 import React from "react";
+// Link
+import { Link } from "react-scroll";
 // contagem regressiva
 import CountUp from "react-countup";
 // observador de interseção (intersection observer hook)
@@ -87,8 +89,10 @@ export default function About() {
               </div>
             </div>
             <div className='flex gap-x-8 items-center'>
-              <button className='btn btn-lg'>Contate-me</button>
-              <a href='#' className='text-gradient btn-link'>
+              <Link to='contact'>
+                <button className='btn btn-lg'>Contate-me</button>
+              </Link>
+              <a href='https://open.spotify.com/artist/3iCPnjXteV4JGPTZyYTdHp' className='text-gradient btn-link'>
                 Minhas Músicas
               </a>
             </div>

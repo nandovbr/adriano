@@ -2,7 +2,7 @@ import React from "react";
 // imagens
 import Image from "../assets/avatar.svg";
 // ícones
-import { FaGithub, FaYoutube, FaDribbble } from "react-icons/fa";
+import { FaSpotify, FaYoutube, FaInstagram } from "react-icons/fa";
 // type animation e motion
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
@@ -27,7 +27,7 @@ export default function Banner() {
               viewport={{ once: false, amount: 0.7}}
               className='text-[55px] font-bold leading-[0.8] lg:text-[60px]'
             >
-              ADRIANO <span>JERONIMO</span>
+              ADRIANO <span>JERONIMO.</span>
             </motion.h1>
 
             <motion.div
@@ -77,8 +77,8 @@ export default function Banner() {
                 className='flex max-w-max gap-x-6 items-center mb-12
                 mx-auto lg:mx-0'
               >
-                <button className='btn btn-lg'>Contate-me</button>
-                <a href='#' className='text-gradient btn-link'>
+                {/* <button className='btn btn-lg'>Contate-me</button> */}
+                <a href='https://open.spotify.com/artist/3iCPnjXteV4JGPTZyYTdHp' className='text-gradient btn-link'>
                   Minhas Músicas
                 </a>
               </motion.div>
@@ -91,16 +91,16 @@ export default function Banner() {
                 viewport={{ once: false, amount: 0.7}}
                 className='flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0'
               >
-                <a href='#'>
+                <a href='https://www.youtube.com/@adrianojeronimo'>
                   <FaYoutube />
                 </a>
 
-                <a href='#'>
-                  <FaGithub />
+                <a href='https://open.spotify.com/artist/3iCPnjXteV4JGPTZyYTdHp'>
+                  <FaSpotify />
                 </a>
 
-                <a href='#'>
-                  <FaDribbble />
+                <a href='https://www.instagram.com/adrianojeronimo_oficial/'>
+                  <FaInstagram />
                 </a>
               </motion.div>
 

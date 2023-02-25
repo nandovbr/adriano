@@ -12,7 +12,7 @@ const services = [
     description:
       `Levantai, ó portas, as vossas cabeças; Levantai-vos, ó portais eternos,
       para que entre o Rei da Glória. (Salmos 24:7)`,
-    link: 'Ver mais', // link para a passagem na bíblia
+    link: 'Ver mais', // link para o video no youtube
   },
 
   {
@@ -20,21 +20,21 @@ const services = [
     description:
       `Porque, onde estiver o teu tesouro, aí também estará
       o teu coração. (Mateus 6:21)`,
-    link: 'Ver mais', // link para a passagem na bíblia
+    link: 'Ver mais', // link para o video no youtube
   },
 
   {
     name: 'Sementes Lado B',
     description:
       `Conhecereis a verdade, e a verdade vos libertará. (João 8:32)`,
-    link: 'Ver mais', // link para a passagem na bíblia
+    link: 'Ver mais', // link para o video no youtube
   },
 
   {
     name: 'Ontem, Hoje e Sempre',
     description:
       `Conhecereis a verdade, e a verdade vos libertará. (João 8:32)`,
-    link: 'Ver mais', // link para a passagem na bíblia
+    link: 'Ver mais', // link para o video no youtube
   },
 ];
 
@@ -59,7 +59,9 @@ export default function Services() {
               da música.
             </h3>
 
-            <buton className='btn btn-sm'>Veja minhas autorias</buton>
+            <a href='https://open.spotify.com/artist/3iCPnjXteV4JGPTZyYTdHp'>
+              <buton className='btn btn-sm'>Ouça pelo Spotify</buton>
+            </a>
           </motion.div>
 
           {/* serviços */}
@@ -91,13 +93,13 @@ export default function Services() {
                     </div>
                     <div className='flex flex-col flex-1 items-end'>
                       <a
-                        href='#'
+                        href='https://www.youtube.com/@adrianojeronimo'
                         className='btn w-9 h-9 mb-[42px] flex justify-center
                         items-center'
                       >
                         <BsArrowUpRight />
                       </a>
-                      <a href='#' className='text-gradient text-sm'>
+                      <a href='https://www.youtube.com/@adrianojeronimo' className='text-gradient text-sm'>
                         { link }
                       </a>
                     </div>

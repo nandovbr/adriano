@@ -30,7 +30,9 @@ export default function Work() {
                 Jesus é o Rei da Glória Jesus é o Rei da Glória Jesus é o Rei da Glória 
               </p>
 
-              <button className='btn btn-sm'>Todas as Músicas</button>
+              <a href='https://open.spotify.com/artist/3iCPnjXteV4JGPTZyYTdHp'>
+                <button className='btn btn-sm'>Todas as Músicas</button>
+              </a>
 
             </div>
             {/* imagem */}
