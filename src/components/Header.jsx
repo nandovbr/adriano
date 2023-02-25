@@ -1,4 +1,6 @@
 import React from "react";
+// Link
+import { Link } from "react-scroll";
 // imagens
 import Logo from "../assets/logo.svg";
 
@@ -8,12 +10,14 @@ export default function Header() {
       <div className='container mx-auto'>
         <div className='flex justify-between items-center'>
           {/* logo */}
-          <a href='#'>
+          <a href='https://www.instagram.com/adrianojeronimo_oficial/'>
             <img src={Logo} alt='logo' />
           </a>
 
           {/* botão */}
-          <button className='btn btn-sm'>Work with me</button>
+          <Link to='contact'>
+            <button className='btn btn-sm'>Entrar em contato</button>
+          </Link>
         </div>
       </div>
     </header>
