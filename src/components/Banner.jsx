@@ -61,7 +61,7 @@ export default function Banner() {
                 viewport={{ once: false, amount: 0.7}}
                 className='mb-8 max-w-lg mx-auto lg:mx-0'
               >
-                Sou natural de Brasília, casado com uma linda posa linda (Alba Valéria) e do fruto de nossa união
+                Sou natural de Brasília, casado com uma linda esposa(Alba Valéria) e do fruto de nossa união
                 temos dois filhos igualmente lindos: Daniela e Davi. Eu e minha casa servimos ao Senhor,
                 criador dos céus e da Terra, o qual, mediante a graça em Cristo Jesus, nos resgatou e reconciliou
                 consigo mesmo, para o louvor de sua glória (2 Coríntios 5:18).
