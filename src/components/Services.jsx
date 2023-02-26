@@ -54,7 +54,7 @@ export default function Services() {
           >
             <h2 className='h2 text-accent mb-6'>Por que eu canto?</h2>
             <h3 className='h3 max-2-[455px] mb-16'>
-              A Bíblia é a minha fonte de inspiração, e a minha voz é o meu
+              A Bíblia é a minha fonte de inspiração, e minha voz é o meu
               instrumento para louvar a Deus e espalhar a sua palavra através
               da música.
             </h3>

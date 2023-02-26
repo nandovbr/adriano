@@ -24,10 +24,23 @@ export default function Work() {
                 Minha Família <br />
                 e Carreira.
               </h2>
-              <p className='max-w-sm mb-16'>
-                Jesus é o Rei da Glória Jesus é o Rei da Glória Jesus é o Rei da Glória 
-                Jesus é o Rei da Glória Jesus é o Rei da Glória Jesus é o Rei da Glória 
-                Jesus é o Rei da Glória Jesus é o Rei da Glória Jesus é o Rei da Glória 
+              <p className='max-w-sm mb-4'>
+                Família é um projeto de Deus e eu sou muito abençoado por ter uma família linda. 
+                A Bíblia nos diz: 
+                “Por essa razão, o homem deixará pai e mãe e se unirá à sua mulher, e eles se tornarão uma só carne” (Gênesis 2:24).
+              </p>
+              <p className='max-w-sm mb-4'>
+                “Por essa razão, o homem deixará pai e mãe e se unirá à sua mulher, e eles se tornarão uma só carne” (Gênesis 2:24).
+              </p>
+              <p className='max-w-sm mb-4'>
+                “Aquele que encontra uma esposa, foi agraciado pelo Senhor” (Provérbios 18:22). 
+              </p>
+              <p className='max-w-sm mb-4'>
+                “Os filhos são herança do Senhor, uma recompensa que ele dá” (Salmos 127:3).
+                Minhas canções são a expressão da minha adoração a Deus. 
+              </p>
+              <p className='max-w-sm mb-4'>
+                Minhas canções são a expressão da minha adoração a Deus.
               </p>
 
               <a href='https://open.spotify.com/artist/3iCPnjXteV4JGPTZyYTdHp'>

@@ -42,7 +42,7 @@ export default function About() {
             <h2 className='h2 text-accent'>Sobre mim.</h2>
 
             <h3 className='h3 mb-4'>
-              Sou advogado, e desde 2001 cantor
+              Advogado por profissão, mas um adorador por essência.
             </h3>
 
             <p className='mb-6'>
