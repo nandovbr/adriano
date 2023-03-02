@@ -45,7 +45,7 @@ export default function About() {
               Advogado por profissão, mas um adorador por essência.
             </h3>
 
-            <p className='mb-6'>
+            <p className='mb-12'>
               Possuo um canal no YouTube com os clipes das musicas que compus e
               canto. Também estão disponíveis nas plataformas digitais de audio.
             </p>
