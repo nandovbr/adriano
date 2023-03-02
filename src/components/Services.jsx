@@ -26,14 +26,22 @@ const services = [
   {
     name: 'Sementes Lado B',
     description:
-      `Conhecereis a verdade, e a verdade vos libertará. (João 8:32)`,
+      `Não acumuleis para vós outros tesouros sobre a terra,
+      onde a traça e a ferrugem corroem e onde ladrões escavam e roubam;
+      20 mas ajuntai para vós outros tesouros no céu, onde traça nem
+      ferrugem corrói, e onde ladrões não escavam, nem roubam; 21 porque,
+      onde está o teu tesouro, aí estará também o teu coração. (Mateus 6:19-21)`,
     link: 'Ver mais', // link para o video no youtube
   },
 
   {
     name: 'Ontem, Hoje e Sempre',
     description:
-      `A ele, pois, a glória eternamente. Amém! (Romanos 11:36)`,
+      `Porque foi subindo como renovo perante ele e como raiz de uma terra seca;
+      não tinha aparência nem formosura; olhamo-lo, mas nenhuma beleza havia que
+      nos agradasse. 3 Era desprezado e o mais rejeitado entre os homens;
+      homem de dores e que sabe o que é padecer; e, como um de quem os homens
+      escondem o rosto, era desprezado, e dele não fizemos caso. (saias 53:2-3)`,
     link: 'Ver mais', // link para o video no youtube
   },
 ];
@@ -79,7 +87,7 @@ export default function Services() {
 
                 return (
                   <div
-                    className='border-b border-white/20 h-[146px] mb-[38px] flex'
+                    className='border-b border-white/20 h-[200px] mb-[38px] flex'
                     key={ index }
                   >
                     <div className='max-w-[476px]'>
