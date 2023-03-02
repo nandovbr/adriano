@@ -87,7 +87,7 @@ export default function Services() {
 
                 return (
                   <div
-                    className='border-b border-white/20 h-[200px] mb-[38px] flex'
+                    className='border-b border-white/20 h-[220px] mb-[38px] flex'
                     key={ index }
                   >
                     <div className='max-w-[476px]'>

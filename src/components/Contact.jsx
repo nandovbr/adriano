@@ -42,7 +42,7 @@ const Contact = () => {
               </h4>
               <h2 className='text-[45px] lg:text-[90px] leading-none mb-12'>
                 Preenhca o <br />
-                formulário abaixo!
+                formulário!
               </h2>
             </div>
           </motion.div>
