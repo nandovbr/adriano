@@ -41,8 +41,8 @@ const Contact = () => {
                 Entrar em contato
               </h4>
               <h2 className='text-[45px] lg:text-[90px] leading-none mb-12'>
-                Vamos trabalhar <br />
-                juntos!
+                Preenhca o <br />
+                formulário abaixo!
               </h2>
             </div>
           </motion.div>
