@@ -4,6 +4,24 @@ import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 
 const Contact = () => {
+
+  const handleClick = () => {
+    const name = document.querySelector('#name');
+    const email = document.querySelector('#email');
+    const message = document.querySelector('#message');
+    const emailRegex = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+
+    if (!emailRegex.test(email.value)) {
+      throw new Error('Email inválido!');
+    } else
+
+    if (name.value === '' || email.value === '' || message.value === '') {
+      throw new Error('Preencha todos os campos!');
+    } else {
+      alert('Mensagem enviada com sucesso!');
+    }
+  };
+
   return (
     <section className='py-16 lg:section' id='contact'>
       <div className='container mx-auto'>
@@ -30,6 +48,8 @@ const Contact = () => {
           </motion.div>
           {/* form */}
           <motion.form
+            action="https://api.staticforms.xyz/submit"
+            method="POST"
             variants={ fadeIn('left', 0.3) }
             initial='hidden'
             whileInView={ 'show' }
@@ -37,11 +57,16 @@ const Contact = () => {
             className='flex-1 border rounded-2x1 flex flex-col gap-y-6
             pb-24 p-6 items-start'
           >
+            <input type="hidden" name="accessKey" value="afe08487-b3bb-4c42-b145-390a87734d09" />
+            <input type="hidden" name="redirectTo" value="http://adrianojeronimo.com.br" />
             <input
               className='bg-transparent border-b py-3 outline-none w-full
                 placeholder:text-white focus:border-accent transition-all'
               type='email'
               placeholder='Seu email'
+              name="email"
+              id="email"
+              required
             />
 
             <input
@@ -49,15 +74,21 @@ const Contact = () => {
                 placeholder:text-white focus:border-accent transition-all'
               type='text'
               placeholder='Seu nome'
+              name="name"
+              id="name"
+              required
             />
             <textarea
               className='bg-transparent border-b py-12 outline-none w-full
                 placeholder:text-white focus:border-accent transition-all
                 resize-none mb-12'
               placeholder='Sua mensagem'
+              name="message"
+              id="message"
+              required
             ></textarea>
 
-            <button className='btn btn-lg'>Enviar mensagem</button>
+            <button onClick={ handleClick } className='btn btn-lg'>Enviar mensagem</button>
           </motion.form>
         </div>
       </div>

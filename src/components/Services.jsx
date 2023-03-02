@@ -33,7 +33,7 @@ const services = [
   {
     name: 'Ontem, Hoje e Sempre',
     description:
-      `Conhecereis a verdade, e a verdade vos libertará. (João 8:32)`,
+      `A ele, pois, a glória eternamente. Amém! (Romanos 11:36)`,
     link: 'Ver mais', // link para o video no youtube
   },
 ];
