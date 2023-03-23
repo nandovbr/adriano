@@ -49,7 +49,7 @@ const services = [
 export default function Services() {
   return (
     <section className='section' id='services'>
-      <div className='container mx-auto'>
+      <div className='h-[2500px] container mx-auto'>
         <div className='flex flex-col lg:flex-row'>
           {/* texto e imagem */}
           <motion.div

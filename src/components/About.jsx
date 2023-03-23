@@ -16,7 +16,7 @@ export default function About() {
 
   return (
     <section className='section' id='about' ref={ ref }>
-      <div className='container mx-auto'>
+      <div className='h-[2650px] container mx-auto'>
         <div className='flex flex-col gap-y-10 lg:flex-row lg:items-center
         lg:gap-x-20 lg:gap-y-0 h-screen'>
           {/* img */}
