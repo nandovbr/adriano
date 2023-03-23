@@ -51,7 +51,7 @@ export default function About() {
             </p>
 
             {/* stats */}
-            <div className='flex gap-x-6 lg:gap-x-10 mb-12'>
+            {/* <div className='flex gap-x-6 lg:gap-x-10 mb-12'>
               <div>
                 <div className='text-[40px] font-tertiary text-gradient
                 mb-2'>
@@ -87,7 +87,7 @@ export default function About() {
                   Músicas
                 </div>
               </div>
-            </div>
+            </div> */}
             <div className='flex gap-x-8 items-center'>
               <Link to='contact'>
                 <button className='btn btn-lg'>Contate-me</button>
