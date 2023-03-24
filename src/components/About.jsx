@@ -2,7 +2,7 @@ import React from "react";
 // Link
 import { Link } from "react-scroll";
 // contagem regressiva
-import CountUp from "react-countup";
+// import CountUp from "react-countup";
 // observador de interseção (intersection observer hook)
 import { useInView } from "react-intersection-observer";
 // motion e variant
@@ -10,7 +10,7 @@ import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 
 export default function About() {
-  const [ref, inView] = useInView({
+  const [ref] = useInView({
     threshold: 0.5,
   });
 
