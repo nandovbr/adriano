@@ -49,7 +49,7 @@ const services = [
 export default function Services() {
   return (
     <section className='section' id='services'>
-      <div className='h-[2500px] container mx-auto'>
+      <div className='h-[2000px] container mx-auto'>
         <div className='flex flex-col lg:flex-row'>
           {/* texto e imagem */}
           <motion.div
@@ -78,7 +78,7 @@ export default function Services() {
             initial='hidden'
             whileInView={ 'show' }
             viewport={ { once: false, amount: 0.3 } }
-            className='flex-1'>
+            className='h-[1000px] flex-1'>
             {/* lista de serviços */}
             <div>
               {services.map((service, index) => {

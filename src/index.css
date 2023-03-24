@@ -42,7 +42,7 @@
 
 @layer base {
   body {
-    @apply font-secondary text-lg leading-8 text-white;
+    @apply font-secondary text-lg leading-8 text-white h-[2000px];
   }
   .h2 {
     @apply font-primary text-[32px] mb-6 tracking-[10%] uppercase;
