@@ -1,3 +1,3 @@
 # Adriano Jeronimo
 
-### `Em desenvolvimento....`
+### `Site pronto! Aguardando alterações leves por parte do cliente`
