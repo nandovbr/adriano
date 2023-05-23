@@ -96,13 +96,13 @@ export default function Work() {
               <div className='absolute -bottom-full left-12 group-hover:bottom-24
                 transition-all duration-500 z-50'
               >
-                <span className='text-gradient '>Rei da Glória</span>
+                <span className='text-gradient '>Anseio</span>
               </div>
               {/* titulo */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-14
                 transition-all duration-700 z-50'
               >
-                <span className='text-3x1 text-white'>Lançamento Recente</span>
+                <span className='text-3x1 text-white'>Lançamento em 10 de Junho de 2023</span>
               </div>
             </div>
             {/* imagem */}
