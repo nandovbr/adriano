@@ -29,9 +29,9 @@ export default function Work() {
                 A Bíblia nos diz: 
                 “Por essa razão, o homem deixará pai e mãe e se unirá à sua mulher, e eles se tornarão uma só carne” (Gênesis 2:24).
               </p>
-              <p className='max-w-sm mb-4'>
+              {/* <p className='max-w-sm mb-4'>
                 “Por essa razão, o homem deixará pai e mãe e se unirá à sua mulher, e eles se tornarão uma só carne” (Gênesis 2:24).
-              </p>
+              </p> */}
               <p className='max-w-sm mb-4'>
                 “Aquele que encontra uma esposa, foi agraciado pelo Senhor” (Provérbios 18:22). 
               </p>
